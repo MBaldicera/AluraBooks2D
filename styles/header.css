@@ -22,8 +22,19 @@
 }
 .lista-menu{
     display: none;
+    position: absolute;
+    top: 100%;
 }
 .container-botao:checked~.lista-menu{
     display: block;
 }
-
+.lista-menu-titulo, .lista-menu-item{
+    padding: 1em;
+    background-color: var(--branco);
+}
+.lista-menu-titulo{
+    color: var(--laranja);
+}
+.lista-menu-link{
+    
+}
